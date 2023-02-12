@@ -1,0 +1,15 @@
+h1 {
+	font-family: "Fira Sans", sans-serif;
+	font-size: 3em;
+	/* margin: 2em 1rem; */
+}
+h2 {
+	border-bottom: 1px solid rgb(54, 4, 139);
+	font-size: 3em;
+	color: rgb(0, 0, 0);
+}
+
+p {
+	line-height: 1.6em;
+	color: rgb(0, 0, 0);
+}

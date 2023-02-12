@@ -1,0 +1,196 @@
+@import "typo.css";
+body {
+	background: rgb(81, 104, 222);
+	background: linear-gradient(0deg, rgb(116, 127, 117) 0%, rgb(82, 167, 94) 100%);
+	margin: 0;
+	font-family: "Merriweather", serif;
+	color: rgb(0, 0, 0);
+}
+html {
+	scroll-behavior: smooth !important;
+}
+
+@media only screen and (min-width: 35em) {
+	h1 {
+		font-size: 7em;
+		margin: 2em 4rem 1em;
+	}
+}
+
+/* ---- Layout Rules ---- */
+/* main {
+	margin: 10vh 1em 10vh;
+}
+
+.main-hero {
+	min-height: 40vh;
+	padding-top: 3em;
+} */
+
+
+/* Navigation Styles*/
+/* .navbar_menu ul {
+	text-align: right;
+} */
+
+.navbar_menu li {
+	display: inline-block;
+	padding-top: 10px;
+    padding-right: 10px;
+	padding-left: 10px;
+	cursor: pointer;
+}
+#navbar_header {
+	display: flex;
+	justify-content: flex-end;
+	height: 40px;
+	text-transform: uppercase;
+	font-size: 14px;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 1;
+	background: rgb(109, 211, 131);
+	font-weight: 400;
+}
+
+.navbar_menu .menu_link {
+	display: block;
+	padding: 1em;
+	font-weight: bold;
+	text-decoration: none;
+	color: #000;
+}
+.navbar_menu .menu_link:hover {
+	background: rgb(34, 139, 56);
+	color: rgb(0, 0, 0);
+	transition: ease 0.3s all;
+}
+
+
+/* Active*/
+.active {
+	background-color: rgb(12, 114, 34);
+	font-weight: bold;
+}
+
+/*
+li a {
+	text-decoration: none;
+	padding: 20px;
+	cursor: pointer;
+}
+
+a,
+a:visited,
+a:active {
+	color: inherit;
+} */
+
+
+/* Header Styles */
+.header_page {
+	background: #fff;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 5;
+}
+
+/* Footer Styles */
+/* .footer_page {
+	background: #000;
+	padding: 2em;
+	color: #fff;
+}
+
+.footer_page p {
+	color: #fff;
+} */
+
+/* ---- Theme Rules ---- */
+/* Landing Container Styles */
+/* .section_container {
+	padding: 1em;
+	text-align: center;
+}
+
+@media only screen and (min-width: 35em) {
+	.section_container {
+		max-width: 50em;
+		padding: 4em;
+	}
+}
+
+section:nth-of-type(even) .section_container {
+	margin-right: 0;
+	margin-left: auto;
+} */
+
+/* Background Circles */
+/* Note that background circles are created with psuedo elements before and after */
+/* Circles appear to be random do to use of :nth-of-type psuedo class */
+/* section:nth-of-type(odd) .section_container::before {
+	content: "";
+	background: rgba(255, 255, 255, 0.187);
+	position: absolute;
+	z-index: -5;
+	width: 20vh;
+	height: 20vh;
+	border-radius: 50%;
+	opacity: 0;
+	transition: ease 0.5s all;
+}
+
+section:nth-of-type(even) .section_container::before {
+	content: "";
+	background: rgb(255, 255, 255);
+	background: linear-gradient(0deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.2) 100%);
+	position: absolute;
+	top: 3em;
+	right: 3em;
+	z-index: -5;
+	width: 10vh;
+	height: 10vh;
+	border-radius: 50%;
+	opacity: 0;
+	transition: ease 0.5s all;
+}
+
+section:nth-of-type(3n) .section_container::after {
+	content: "";
+	background: rgb(255, 255, 255);
+	background: linear-gradient(0deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.2) 100%);
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	z-index: -5;
+	width: 10vh;
+	height: 10vh;
+	border-radius: 50%;
+	opacity: 0;
+	transition: ease 0.5s all;
+}
+
+section:nth-of-type(3n + 1) .section_container::after {
+	content: "";
+	background: rgb(255, 255, 255);
+	background: linear-gradient(0deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.2) 100%);
+	position: absolute;
+	right: 20vw;
+	bottom: -5em;
+	z-index: -5;
+	width: 15vh;
+	height: 15vh;
+	border-radius: 50%;
+	opacity: 0;
+	transition: ease 0.5s all;
+} */
+
+/* ---- Theme State Rules ---- */
+/* Section Active Styles */
+/* Note: current-active-class class is applied through javascript. You should update the class here and in the index.html to what you set in your javascript file.  */
+/* section.current-active-class {
+	background: rgb(0, 0, 0);
+	background: linear-gradient(0deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0) 100%);
+} */
